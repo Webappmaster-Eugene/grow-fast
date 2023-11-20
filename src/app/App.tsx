@@ -9,6 +9,9 @@ import {MainPage} from "pages/MainPage";
 
 const App = () => {
    const { theme, toggleTheme } = useTheme();
+   const n = 3+5; //?
+    console.log(n + n); //?
+  console.log(3+4);
 
     return (
         <div className={classNames('app', {}, [theme])}>
