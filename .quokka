@@ -1,7 +1,4 @@
 {
     "babel": true,
-    "plugins": ["jsdom-quokka-plugin"],
-    "jsdom": {
-        "file": "./src/index.tsx"
-    }
+    "plugins": ["jsdom-quokka-plugin"]
 }
